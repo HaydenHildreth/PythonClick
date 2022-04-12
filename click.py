@@ -2,6 +2,7 @@ from tkinter import *
 
 root = Tk()
 root.title("Click Counter")
+root.columnconfigure(0, weight=1)
 count = 0
 
 
